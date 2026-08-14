@@ -5,7 +5,7 @@
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?style=for-the-badge&logo=appveyor)](https://cdbc.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
-[![Website](https://img.shields.io/badge/Website-cloudbitex.com-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://cloudbitex.com)
+[![Website](https://img.shields.io/badge/Website-cloudbitex.com-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://cdbc.io)
 
 > **The Official Ecosystem Application & Dashboard for Cloudbit Classic ($CDBC).**<br>
 > *Moving the future of decentralized finance.*
