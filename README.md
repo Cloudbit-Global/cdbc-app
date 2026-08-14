@@ -39,7 +39,7 @@ The CDBC app leverages a cutting-edge modern stack to ensure high availability, 
 
 ## ⚙️ Getting Started
 
-Follow these steps to set up the project locally.
+Follow these steps to set up the project locally. • [DOWNLOAD: CDBC-APP.APK](https://github.com/Cloudbit-Global/cdbc-app/releases/download/latest/cdbc-app.apk)
 
 ### 1. Prerequisites
 
