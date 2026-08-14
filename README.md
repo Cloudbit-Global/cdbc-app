@@ -104,5 +104,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
   <b>Cloudbit Classic ($CDBC)</b><br>
   <i>Empowering the digital economy.</i><br><br>
   
-  [Website](https://cdbc.io) • [API Documentation](https://cdbc.io/api) • [Telegram](https://t.me/cloudbit)
+  [Website](https://cdbc.io) • [APP Documentation](https://cdbc-app.vercel.app) • [Telegram](https://t.me/cloudbit)
 </div>
