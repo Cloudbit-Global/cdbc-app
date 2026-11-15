@@ -1,0 +1,28 @@
+name: Build Clean IONOS Release Bundle
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  package-ionos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Create Clean Production Archive (Zero Git/CI Metadata)
+        run: |
+          mkdir -p release-dist
+          zip -r release-dist/cdbc-ionos-production.zip . -x "*.git*" "*.github*" "release-dist/*" "*.md" "LICENSE"
+
+      - name: Attach Archive to GitHub Release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: release-dist/cdbc-ionos-production.zip
