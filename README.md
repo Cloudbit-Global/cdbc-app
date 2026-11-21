@@ -106,3 +106,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
   
   [Website](https://cdbc.io) • [APP Documentation](https://cdbc-app.vercel.app) • [Telegram](https://t.me/cloudbit)
 </div>
+
+---
+
+## Official Android App (APK)
+
+* **Download CDBC.IO Android App (`v2.0.0`):** [CDBC-io-v2.0.0.apk](https://github.com/Cloudbit-Global/cdbc-app/releases/download/v2.0.0/CDBC-io-v2.0.0.apk)
