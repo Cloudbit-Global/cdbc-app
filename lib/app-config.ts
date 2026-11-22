@@ -4,7 +4,7 @@
 export const appConfig = {
   name: 'Cloudbit',
   tagline: 'The cloud, reimagined for the edge of tomorrow.',
-  version: 'v1.0.0',
+  version: 'v3.0.0',
   fileSize: '18.4 MB',
   minAndroid: 'Android 8.0+',
   updatedOn: 'Aug 2026',
