@@ -1,114 +1,39 @@
 <div align="center">
-
-# 🌌 Cloudbit Classic ($CDBC) App
-
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?style=for-the-badge&logo=appveyor)](https://cdbc.io)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
-[![Website](https://img.shields.io/badge/Website-cdbc.io-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://cdbc.io)
-
-> **The Official Ecosystem Application & Dashboard for Cloudbit Classic ($CDBC).**<br>
-> *Moving the future of decentralized finance.*
+  <a href="https://cdbc.io">
+    <img src="https://raw.githubusercontent.com/Cloudbit-Global/core/main/assets/cdbc-logo-256.png" alt="CDBC.IO Logo" width="135" height="135" />
+  </a>
+  <h1>Cloudbit Classic Main Portal &amp; App (<code>cdbc.io</code>)</h1>
+  <p><strong>Official Web3 Ecosystem Portal, Multichain Contract Hub &amp; Android App for Cloudbit Classic ($CDBC)</strong></p>
+  <p>
+    <a href="https://cdbc.io">Visit cdbc.io</a> &bull;
+    <a href="https://cloudbitex.com">CloudbitDEX</a> &bull;
+    <a href="https://cdbc.io/api">Public API</a> &bull;
+    <a href="https://cloudbit.to">cloudbit.to</a> &bull;
+    <a href="https://t.me/cloudbit_ai_bot">@cloudbit_ai_bot</a> &bull;
+    <a href="https://x.com/cloudbit_">X (@cloudbit_)</a>
+  </p>
+</div>
 
 ---
 
-</div>
+## Architecture &amp; Features
 
-## 📖 Overview
-
-Welcome to the official repository of the **Cloudbit Classic App**. Designed with performance, security, and the future in mind, this application serves as the primary gateway for users to interact with the $CDBC ecosystem. 
-
-Whether you are tracking real-time market data, utilizing our robust APIs via [cdbc.io](https://cdbc.io), or managing your digital assets, the CDBC App delivers a seamless, modern, and elite user experience.
-
-## ✨ Key Features
-
-- **🚀 Real-Time Dashboard:** Monitor $CDBC market metrics, price movements, and portfolio status instantly.
-- **🔗 API Integration:** Deep integration with the official CDBC API infrastructure for ultra-fast data fetching and transactions.
-- **🛡️ Secure & Self-Hosted Ready:** Built with flexibility in mind. Designed to connect flawlessly with decentralized nodes and secure database architectures (e.g., Supabase).
-- **🎨 Futuristic UI/UX:** A sleek, dark-themed, and highly responsive interface tailored for modern crypto enthusiasts.
-- **🌍 Multi-Language Support:** Expanding accessibility for our global community.
-
-## 🛠️ Technology Stack
-
-The CDBC app leverages a cutting-edge modern stack to ensure high availability, zero latency, and uncompromising security.
-
-- **Frontend:** React.js / Next.js (TypeScript)
-- **Styling:** Tailwind CSS
-- **Backend/Database:** Supabase (PostgreSQL)
-- **Deployment:** Vercel / Docker (Self-hosted options available)
-
-## ⚙️ Getting Started
-
-Follow these steps to set up the project locally. • [DOWNLOAD: CDBC-APP.APK](https://github.com/Cloudbit-Global/cdbc-app/releases/download/latest/cdbc-app.apk)
-
-### 1. Prerequisites
-
-Ensure you have the following installed:
-- [Node.js](https://nodejs.org/) (v18 or higher)
-- [npm](https://npmjs.com/) or [Yarn](https://yarnpkg.com/)
-- Git
-
-### 2. Installation
-
-Clone the repository and install the dependencies:
-
-```bash
-# Clone the repository
-git clone https://github.com/Cloudbit-Global/cdbc-app.git
-
-# Navigate into the directory
-cd cdbc-app
-
-# Install dependencies
-npm install
-# or
-yarn install
-```
-
-### 3. Environment Variables
-
-Create a `.env.local` file in the root directory and configure your environment variables (replace with your actual API keys and Supabase credentials):
-
-```env
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-NEXT_PUBLIC_CDBC_API_URL=https://cdbc.io/api
-```
-
-### 4. Run Development Server
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## 🤝 Contributing
-
-We welcome contributions from the Cloudbit Classic community! 
-To contribute:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the branch (`git push origin feature/AmazingFeature`).
-5. Open a Pull Request.
-
-## 📜 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
-<div align="center">
-  <b>Cloudbit Classic ($CDBC)</b><br>
-  <i>Empowering the digital economy.</i><br><br>
-  
-  [Website](https://cdbc.io) • [APP Documentation](https://cdbc-app.vercel.app) • [Telegram](https://t.me/cloudbit)
-</div>
+* **Dark-Mode Web3 Interface:** High-contrast obsidian UI with responsive CSS Grid/Flexbox cards, one-click contract copy buttons, and direct block explorer links.
+* **Primary Contract Showcase:** Highlights the canonical **BNB Smart Chain (BEP-20)** contract (`0xaf8b1b1bb4a47f537932968C7DE6E251dd50C6a9`) alongside all verified bridge networks.
+* **SEO &amp; Zero-Telemetry Standard:** English (`en`) default localization, canonical tags, JSON-LD `Organization` &amp; `WebSite` schema, and zero external tracking scripts.
+* **Automated IONOS Release Bundling:** GitHub Actions workflow (`.github/workflows/ionos-release.yml`) builds clean production ZIP packages on every version tag.
 
 ---
 
 ## Official Android App (APK)
 
 * **Download CDBC.IO Android App (`v2.0.0`):** [CDBC-io-v2.0.0.apk](https://github.com/Cloudbit-Global/cdbc-app/releases/download/v2.0.0/CDBC-io-v2.0.0.apk)
+
+---
+
+## Official Cloudbit-Global Ecosystem Repositories
+* **[`Cloudbit-Global/core`](https://github.com/Cloudbit-Global/core)** – Core architecture, multichain contract registry, verified ABIs, and brand assets.
+* **[`Cloudbit-Global/cdbc-dex`](https://github.com/Cloudbit-Global/cdbc-dex)** – Official CloudbitDEX multichain decentralized exchange and listing portal (`cloudbitex.com`).
+* **[`Cloudbit-Global/cdbc-app`](https://github.com/Cloudbit-Global/cdbc-app)** – Official main project portal and Android APK (`cdbc.io`).
+* **[`Cloudbit-Global/cdbc-api`](https://github.com/Cloudbit-Global/cdbc-api)** – Public supply endpoints and OpenAPI 3.1 specifications (`cdbc.io/api`).
+* **[`Cloudbit-Global/cdbc-bot`](https://github.com/Cloudbit-Global/cdbc-bot)** – Official Telegram GameFi & Tap2Earn Bot (`@cloudbit_ai_bot` / `cloudbit.to`).
