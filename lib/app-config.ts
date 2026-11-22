@@ -13,9 +13,8 @@ export const appConfig = {
   repo: 'Cloudbit-Global/cdbc-app',
   repoUrl: 'https://github.com/Cloudbit-Global/cdbc-app',
 
-  // Direct APK download — points at the latest GitHub Release asset.
-  // Upload your APK as a release asset named "cdbc-app.apk" (or edit the name below).
+  // Direct APK download from the v3.0.0 GitHub Release.
   downloadUrl:
-    'https://github.com/Cloudbit-Global/cdbc-app/releases/latest/download/cdbc-app.apk',
+    'https://github.com/Cloudbit-Global/cdbc-app/releases/download/v3.0.0/CDBC-io-v3.0.0.apk',
   releasesUrl: 'https://github.com/Cloudbit-Global/cdbc-app/releases',
 } as const
