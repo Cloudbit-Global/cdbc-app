@@ -43,10 +43,10 @@ export function SiteHeader() {
 
         <div className="flex items-center gap-2">
           <a
-            href={appConfig.repoUrl}
+            href="https://github.com/Cloudbit-Global"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="View source on GitHub"
+            aria-label="View Cloudbit-Global on GitHub"
             className="flex h-9 w-9 items-center justify-center rounded-lg border border-border text-muted-foreground transition-colors hover:border-neon/50 hover:text-neon"
           >
             <GithubIcon className="h-4 w-4" />
