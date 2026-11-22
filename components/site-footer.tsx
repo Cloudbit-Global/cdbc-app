@@ -24,13 +24,13 @@ export function SiteFooter() {
         </p>
 
         <a
-          href={appConfig.repoUrl}
+          href="https://github.com/Cloudbit-Global"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-1.5 text-xs text-muted-foreground transition-colors hover:text-neon"
         >
           <GithubIcon className="h-4 w-4" />
-          {appConfig.repo}
+          Cloudbit-Global
         </a>
       </div>
     </footer>
